@@ -12,6 +12,6 @@
 >### 專案介紹：
 CharityML 是一家虛構的慈善組織，位於矽谷的中心地帶，旨在為渴望學習機器學習的人們提供財務支持。在向社區居民發送了近 32,000 封信之後，CharityML 確定他們收到的每一筆捐款都來自每年收入超過 5 萬美元的人。為了擴大他們潛在的捐贈者基礎，CharityML 已決定向加州居民發送信件，但僅向最有可能捐贈給慈善機構的人發信。加州擁有將近 1500 萬名工作者，請幫他們構建算法，以便最好地識別潛在的捐贈者，並降低發送郵件的間接成本。因此，**目標是評估和優化幾個不同的機器學習模型，以確定哪種算法將提供最高的捐贈收益，同時還減少發送的信件總數。**
 >### 資料介紹：
-修改後的人口普查資料集由大約 32,000 個資料點組成，每筆資料有 13 個特徵。該資料集是由 Ron Kohavi 撰寫的論文 *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid"* 中的資料集的修改版本。其中原始資料集託管在 [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income) 上。
+修改後的人口普查資料集由大約 32,000 筆資料組成，每筆資料有 13 個特徵。該資料集是由 Ron Kohavi 撰寫的論文 *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid"* 中的資料集的修改版本。其中原始資料集託管在 [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income) 上。
 >### 方法概述：
 本文利用 [DeepLearning (2016)](http://www.deeplearningbook.org/contents/guidelines.html)書中建議的方法走過機器學習的流程，從快速建立一個簡單的機器學習 Pipeline 開始，藉由評估模型了解優化方向，接著由探索性分析與特徵工程改善特徵，最後優化模型參數獲得更佳的準確率。
