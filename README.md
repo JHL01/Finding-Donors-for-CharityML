@@ -1,7 +1,7 @@
 # Finding-Donors-for-CharityML
 實作一個完整的資料專案流程：
 探索性資料分析、建立端到端機器學習模型、建立模型評估機制、根據專案目標選擇最適模型、修改與測試資料性能、調整模型參數。
-網頁版 [jupyternotebook請點這](https://nbviewer.jupyter.org/github/JHL01/Finding-Donors-for-CharityML/blob/master/%E5%B0%8B%E6%89%BE%E6%BD%9B%E5%9C%A8%E6%8D%90%E5%8A%A9%E8%80%85%28Finding%20Donors%20for%20CharityML%29.ipynb)
+網頁版 [jupyternotebook](https://nbviewer.jupyter.org/github/JHL01/Finding-Donors-for-CharityML/blob/master/%E5%B0%8B%E6%89%BE%E6%BD%9B%E5%9C%A8%E6%8D%90%E5%8A%A9%E8%80%85%28Finding%20Donors%20for%20CharityML%29.ipynb)
 >### 運作環境：
 - Python version == 3.6.4
   - sklearn == 0.20.2
