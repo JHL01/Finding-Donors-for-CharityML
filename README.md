@@ -15,3 +15,8 @@ CharityML 是一家虛構的慈善組織，位於矽谷的中心地帶，旨在�
 修改後的人口普查資料集由大約 32,000 筆資料組成，每筆資料有 13 個特徵。該資料集是由 Ron Kohavi 撰寫的論文 *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid"* 中的資料集的修改版本。其中原始資料集託管在 [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income) 上。
 >### 方法概述：
 本文利用 [DeepLearning (2016)](http://www.deeplearningbook.org/contents/guidelines.html)書中建議的方法走過機器學習的流程，從快速建立一個簡單的機器學習 Pipeline 開始，藉由評估模型了解優化方向，接著由探索性分析與特徵工程改善特徵，最後優化模型參數獲得更佳的準確率。
+>### 主要發現：
+- 使用 DeepLearning 書中建議的方法能夠快速測試每次修改的效能變化，從而確定正確的行動過程而不是盲目猜測修改結果，對於一個產品/模型優化而言很有幫助。
+- 以本資料集的預測結果來看，Gradient Boosting 具有較高的 F-score(74.5%)，高出 Logistic Regression 4.4%，由學習曲線可知兩者皆不具有overfitting的問題。
+- 參數調整後 Gradient Boosting 的 F-score 從 74.5% 提升至 75.1%，提升效果有限，在無overfitting的情況下顯示模型已良好擬合數據，若要增加準確度建議蒐集/生成更多資料。
+- 根據特徵重要性分析，較能影響預測結果(與收入相關)的特徵是資本損失、資本收入、教育年數、婚姻狀態及於家庭中的角色，掌握這些少數特徵將有機會快速判斷一個人的收入情況。
