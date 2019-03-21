@@ -155,7 +155,7 @@ def modelfit(alg, features, target, performCV=True, printFeatureImportance=True,
         feat_imp.plot(kind='bar', title='Feature Importances')
         plt.ylabel('Feature Importance Score')
 
-        
+
 
     
     
